@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Randomizer</title>
+  </head>
+  <body>
+    <center>
+    <p>Random ID</p>
+    <input
+      type="text"
+      readonly
+      id="number_holder"
+      placeholder="ID :)"
+      style="width: 400px; padding: 13px; text-align: center;"
+    />
+    <br />
+    <p>Format (n for number, l for letter, _ for underscore) sample: nnn_lll</p>
+    <input
+      type="text"
+      value="nnnnnllnn_lll_nlnl_nll"
+      id="format"
+      placeholder="nnnnnllnn_lll_nlnl_nll"
+      style="width: 400px; padding: 13px; text-align: center;"
+    />
+    <br />
+    <!-- <p>Max</p>
+    <input type="text" placeholder="max" id="max" />
+    <p>Min</p>
+    <input type="text" placeholder="min" id="min" /> -->
+    <br>
+    <button onclick="randomize()">Randomize</button>
+    <script src="random.js"></script>
+  </body>
+</html>
