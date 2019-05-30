@@ -1,0 +1,15 @@
+{
+  "name": "id_randomizer",
+  "version": "1.0.0",
+  "description": "A simple Randomizer",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Josh Matthew Talplacido",
+  "license": "MIT",
+  "homepage": "https://joshmatthew.github.io/ID_Randomizer",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
